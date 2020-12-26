@@ -1,6 +1,6 @@
 <template>
   <div>
-      <h1>This is footer sections</h1>
+      <h1>This is footer sections Hello</h1>
   </div>
 </template>
 
