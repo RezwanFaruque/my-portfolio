@@ -1,8 +1,81 @@
-.container{
-    .row{
-        .col-12{
-            h2{
-                color: red;
+div{
+    section{
+        &.header{
+            width: 100%;
+            height: calc(100vh);
+            
+            .left-side{
+                padding-top: 20px;
+                width: 40%;
+                background-color: #754EF9;
+                .logo{
+                    font-size: 35px;
+                    color: #FFFF;
+                    font-family: sans-serif;
+                    font-weight: bolder;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+                .image-section{
+                    position: absolute;
+                    right: 55%;
+                    top: 35%;
+                    width: 250px;
+                    height: 270px;
+                    border-radius: 50%;
+                    background-color: white;
+                    .image-outer-layer{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 50%;
+                        .image{
+                            img{
+                                width: 100%;
+                                height: 100%;
+                                border-radius: 50%;
+                                /* padding: 26px; */
+                                padding-top: 30px;
+                                padding-bottom: 25px;
+                                padding-right: 23px;
+                                padding-left: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .social-icons{
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    justify-content: center;
+                    .all-social-me{
+                        display: flex;
+
+                        .icons{
+                            padding-right: 30px;
+                            &.facebook{
+
+                            }
+
+                            &.twitter{
+
+                            }
+
+                            &.instagram{
+
+                            }
+
+                            img{
+                                width: auto;
+                                height: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+            .right-side{
+                width: 60%;
             }
         }
     }
